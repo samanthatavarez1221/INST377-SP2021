@@ -58,7 +58,7 @@
   .gallery ul {
     height: 130px;
     width: 9999px;
-    margin: 0;
+    margin: auto;
     padding: 0;
     list-style: none;
     transition: margin-left 250ms;
