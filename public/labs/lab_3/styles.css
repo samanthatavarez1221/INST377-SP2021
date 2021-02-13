@@ -8,6 +8,7 @@
   .carousel {
     position: relative;
     width: 398px;
+    margin: auto;
     padding: 10px 40px;
     border: 1px solid #CCC;
     border-radius: 15px;
@@ -58,7 +59,7 @@
   .gallery ul {
     height: 130px;
     width: 9999px;
-    margin: auto;
+    margin: 0;
     padding: 0;
     list-style: none;
     transition: margin-left 250ms;
