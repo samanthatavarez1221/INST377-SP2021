@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type= "text/css"/>
+    <title>Lab 4 by Samantha Tavarez</title>
+
+</head>
+<body>
+    <div class="topic">
+        <h1 class="flex-outer" id="Topic">Samantha's Lab 4</h1>
+
+    </div>
+
+    <div class="container">
+        <header>
+            <form method="post" action="/api" name="mainOne">
+                <ul>
+                    <li>
+                        <label for="firstname">First name</label>
+                        <input type="text" name="firstname" id="firstname">
+                    </li>
+                    <li>
+                        <label for="lastname">Last name</label>
+                        <input type="text" name="lastname" id="lastname">
+                    </li>
+                    <li>
+                        <label for="emailbox">Email</label>
+                        <input type="email" name="Email" id="emailbox" placeholder="sam@email.com">
+                    </li>
+                    <li>
+                        <label for="phone">Phone</label>
+                        <input type="tel" name="Phone" id="phone">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="33" rows="5" placeholder="a message"></textarea>
+                    </li>
+                    <li>
+                        <p>Age</p>
+                        <ul class= "flex-inner">
+                            <li>
+                                <input type="checkbox" name="agerange-1" id="agerange-1">
+                                <label for="agerange-1">18-35</label> 
+                            </li>
+                            <li>
+                                <input type="checkbox" name="agerange-2" id="agerange-2">
+                                <label for="agerange-2">35-50</label> 
+                            </li>
+                            <li>
+                                <input type="checkbox" name="agerange-3" id="agerange-3">
+                                <label for="agerange-3">50-65</label>  
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button type="submit" name="submit-form" id="submit-form">Submit form</button>
+                    </li>
+                </ul>
+            </form>
+        </header>
+    </div>
+</body>
+</html>
